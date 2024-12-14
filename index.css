@@ -1,0 +1,22 @@
+/* Style the navbar */
+.navbar {
+	border-bottom: 2px solid #ddd; /* Aggiunge un bordo inferiore */
+	font-weight: bold;
+	border-left: 1px;
+	background-color: #007bff;
+ }
+ 
+ 
+ /* Style the navigation links */
+ .nav-link {
+	padding: 1rem 2rem;
+	font-size: 1.2rem;
+	transition: background-color 0.3s ease-in-out;
+ }
+ 
+ .nav-link:hover {
+	background-color: #f0f0f0;
+	color: #333;
+ }
+
+ 

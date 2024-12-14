@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Mine kàmpf (placeholder title)</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons/font/bootstrap-icons.css" rel="stylesheet">
+  <link rel="stylesheet" href="./css/contatti.css">
+  <link rel="stylesheet" href="./css/index.css">
+  <script src="./javascript/contatti.js"></script>
+</head>
+<body>
+	<nav class="navbar navbar-expand-lg navbar-light" style="background-color: #007bff;"> 
+		<div class="container-fluid">
+		  <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+			 <span class="navbar-toggler-icon"></span>
+		  </button>
+		  <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+			 <div class="navbar-nav">
+				<i class="bi bi-house-door"></i></a>
+				<a class="nav-link active mx-2" aria-current="page" href="./index.html">Home</a>
+				<i class="bi bi-tv"></i> </a>
+				<a class="nav-link mx-2" href="./presentazione.html">Presentazione</a>
+				<i class="bi bi-person"></i> </a>
+				<a class="nav-link mx-2" href="./about.html">About</a>
+				<i class="bi bi-book"></i>
+				<a class="nav-link mx-2" href="./contatti.html">Contatti</a>
+				
+			 </div>
+		  </div>
+		</div>
+	 </nav>
+	 
+	 <div id="container-2">
+		<div class="row">
+			 <div class="col-12 colonne d-flex ">
+				  <img src="./img/spine.jpg" alt="Cristiano Ronaldo" style="height: 200px; border-radius: 30%; border: 2px solid black;" onclick="openOverlay('./img/spine.jpg')">
+				  <div class="text ms-3"><br/><br/>Un frocio nato a Napoli nel 69a.c abile razzista e obesista, le sue parole son odure come il ghiaccio e con un significato profondo come ad esempio celebre frase tratta dal libro di ymir ymir-sus <b>"Mateo è un bastardo albanese"</b> oppure <b>"Marocco è un negro terrone"</b> perciò è un gran filosofo e grande scrittore, infatti scrive pesie d'amore per tibba come <b>"Amore o odio tibba sei obeso"</b></div>
+			 </div>
+			 <div class="col-12 colonne d-flex">
+				  <img src="./img/botto.jpg" alt="Rosario Muniz" style="height: 200px; border-radius: 30%; border: 2px solid black;" onclick="openOverlay('./img/botto.jpg')">
+				  <div class="text ms-3"><br/><br/>Un grande bastardone nato in val di susa nel 1945 dc, lui non è <b>frocio</b> ma è dislessico ed è un coglione, va a disoneste e gli piace ET. Alcune notizie al telegiornale riportano padella come un terrorista che ha bombardato il sud italia, l'accusato si giustifica: <b>"Le scimmie vanno estinte"</b> tutte le persone del nord italia fanno festa e nasce la festa del terroni bruciati e oggi è il 104° anniversario </div>
+			 </div>
+			 <div class="col-12 colonne d-flex">
+				  <img src="./img/marocco.jpg" alt="Siciliano Terrone" style="height: 200px; border-radius: 30%; border: 2px solid black;" onclick="openOverlay('./img/marocco.jpg')">
+				  <div class="text ms-3"><br/><br/>Un negro, <b>sicialiano e terrone</b> nato a palermo nel 0, come potete intuire dalla data di nascita in realtà lui è gesù in versione tarocca con i suoi vestiti nike e il borsello da vero mafioso Siciliano,<b> è stato condannato all'egastolo a causa delle sue origini e per spaccio in garage e zone nascoste, il polizziotto che ha scoperto il delitto si chiama Trimone ed è stato premiato con una bomba.</b></div>
+			 </div>
+			 <div class="col-12 colonne d-flex ">
+				  <img src="./img/albanese.jpg" alt="Albania Merda" style="height: 200px; border-radius: 30%; border: 2px solid black;" onclick="openOverlay('./img/albanese.jpg')">
+				  <div class="text ms-3"><br/><br/>Un Albanese nato nel 104 a Tirana, lui subisce raszzismo e obesismo nei suoi confronti da parte di tutti, pesa 110kg, però l'unica cosa buona è che è chiamato <b>"GAG" Gigante Albanese Gentile</b>data la sua grande gentilezza nel prestare soldi che lui stessi già non ha e perciò come riportato dalla stampa si è suicidato all'età di 77 anni a causa della sua bancarotta e dibiti di circa 104k euro albanesi</div>
+			 </div>
+			 <div class="col-12 colonne d-flex ">
+				  <img src="./img/tibba.jpg" alt="Amore Ciccione" style="height: 200px; border-radius: 30%; border: 2px solid black;" onclick="openOverlay('./img/tibba.jpg')">
+				  <div class="text ms-3"><br/><br/>Un gran gran gran gran gran gran personaggio nato nel 2010 a Pechino, come si può intuire dal suo luogo di nascita parla molto bene <b>cinese</b>, infatti è fidanzato con watsatsu e inoltre mangia gatti e cani. è facilmente riconoscibile data la sua forma fisica appariscente e il suo obby è ovviamente man.... stare con ymir, infatti ha due fidanzati: watsatsu e ymir ognuno geloso dell'altro, tibba però ama entrambi forse..</div>
+			 </div>
+			 <div class="col-12 colonne d-flex">
+				  <img src="./img/diego.jpg" alt="DIEGO" style="height: 200px; border-radius: 30%; border: 2px solid black;" onclick="openOverlay('./img/diego.jpg')">
+				  <div class="text ms-3"><br/><br/><b>DIEGO</b></div>
+			 </div>
+		</div>
+  </div>
+  
+  <div class="overlay" id="imageOverlay" onclick="closeOverlay()">
+		<span class="overlay-close" onclick="closeOverlay()">×</span>
+		<img id="overlayImage" src="" alt="Fullscreen Image">
+  </div>
+  
+	 <div class="overlay" id="imageOverlay" onclick="closeOverlay()">
+		<span class="overlay-close" onclick="closeOverlay()">×</span>
+		<img id="overlayImage" src="" alt="Fullscreen Image">
+	 </div>
+	 
+
+  <div class="container">
+    <section id="home">
+      </section>
+    <section id="presentazione">
+      </section>
+    <section id="about">
+      </section>
+    <section id="contatti">
+      </section>
+  </div>
+
+</body>
+</html>
