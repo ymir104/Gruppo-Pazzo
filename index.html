@@ -46,19 +46,28 @@
 
 	 
 	
-  <div id="container-2">
-		<div class="row d-flex">
-			<div class="colonne col-6">
-			<img src="./Screenshot_2024-12-14-21-50-41-13_6012fa4d4ddec268fc5c7112cbb265e7.jpg" style="width: 50vh; padding-top: 5%;"onclick="openOverlay('./img/Screenshot_2024-12-14-21-50-41-13_6012fa4d4ddec268fc5c7112cbb265e7.jpg')">
-			<div id="sium" style="font-size: xx-large; font-family: cursive;"><br/><br/><b>Ecco il gruppo più sus della calabria, un gruppo in esponenziale crescita e con diversi personaggi uno più negro dell'altro</b></div>
-			<div class="colonne col-6"><video width="640" height="360" controls>
-			        <source src="./Gruppo.mp4" type="video/mp4">
-			        Il tuo browser non supporta il tag video. Scarica il video <a href="Gruppo.mp4">qui</a>.
-    				</video>
-			</div>
-		</div>
-		</div>
-  </div>
+  <div id="container-2" class="container">
+    <div class="row d-flex align-items-center">
+        <!-- Colonna per l'immagine -->
+        <div class="col-6">
+            <img src="./Screenshot_2024-12-14-21-50-41-13_6012fa4d4ddec268fc5c7112cbb265e7.jpg" 
+                 style="width: 100%; padding-top: 5%; cursor: pointer;" 
+                 onclick="openOverlay('./img/Screenshot_2024-12-14-21-50-41-13_6012fa4d4ddec268fc5c7112cbb265e7.jpg')">
+            <div id="sium" style="font-size: xx-large; font-family: cursive;">
+                <br/><br/>
+                <b>Ecco il gruppo più sus della Calabria, un gruppo in esponenziale crescita e con diversi personaggi uno più negro dell'altro</b>
+            </div>
+        </div>
+        <!-- Colonna per il video -->
+        <div class="col-6">
+            <video width="100%" controls>
+                <source src="./Gruppo.mp4" type="video/mp4">
+                Il tuo browser non supporta il tag video. Scarica il video <a href="Gruppo.mp4">qui</a>.
+            </video>
+        </div>
+    </div>
+</div>
+
   
   <div class="overlay" id="imageOverlay" onclick="closeOverlay()">
 		<span class="overlay-close" onclick="closeOverlay()">×</span>
