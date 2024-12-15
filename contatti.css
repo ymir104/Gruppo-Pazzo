@@ -24,7 +24,7 @@
  /* Gradiente animato per il background */
  #container-2 {
 	padding-top: 15px;
-	height: 170vh; /* Altezza sufficiente per il gradiente */
+	height: 600vh; /* Altezza sufficiente per il gradiente */
 	background: linear-gradient(45deg, rgb(138, 43, 226), rgb(75, 0, 130));
 	background-size: 400% 400%; /* Aumenta la dimensione del gradiente per l'animazione */
 	animation: gradientAnimation 2s ease infinite; /* Animazione di 10 secondi */
